@@ -1,0 +1,47 @@
+.card{
+    padding: 1rem;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    width:15rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    padding-top:2rem ;
+    padding-bottom: 2rem;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+    background-color: skyblue;
+    cursor: pointer;
+}
+.c-image{
+    width: 14rem;
+    height: 12rem;
+    border-radius: 1rem;
+}
+.productcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.btn{
+    margin-bottom: 1.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 1rem;
+   
+    
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

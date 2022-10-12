@@ -1,0 +1,18 @@
+.productcontainer2{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr)
+}
+.box2{
+    display: flex;
+}
+.totalprice{
+    position: fixed;
+    margin-left: 60rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
